@@ -39,6 +39,12 @@ body {
     max-width: 80%;
     z-index: 3;
     opacity: 90%;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #210dd6,
+    0 0 0.8rem #1323fe,
+    0 0 2.8rem #133efe,
+    inset 0 0 1.3rem #0f1cd1; 
     
     
     
@@ -50,6 +56,12 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid  rgb(6, 35, 165);
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #210dd6,
+    0 0 0.8rem #1323fe,
+    0 0 2.8rem #133efe,
+    inset 0 0 1.3rem #0f1cd1; 
     
 }
 
@@ -70,7 +82,12 @@ body {
     background-color: black;
     border: 2px solid  rgb(6, 35, 165);
     font-weight: bold;
-    
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #210dd6,
+    0 0 0.8rem #1323fe,
+    0 0 2.8rem #133efe,
+    inset 0 0 1.3rem #0f1cd1; 
     
 
     p {
