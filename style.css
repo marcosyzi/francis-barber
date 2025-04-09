@@ -1,19 +1,19 @@
 .neonText {
-    color: #fff;
+    color: #141313;
     text-shadow:
         0 0 7px #fff,
-        0 0 10px #0515f7,
-        0 0 21px #1705be,
-        0 0 42px rgb(233, 14, 14),
-        0 0 82px #0fa,
+        0 0 10px #e0e1f1,
+        0 0 21px #fcf6f6,
+        0 0 42px rgb(223, 212, 212),
+        0 0 82px rgb(224, 235, 231),
         0 0 92px rgb(181, 186, 233),
-        0 0 102px #0fa,
-        0 0 151px #0fa;
+        0 0 102px rgb(241, 241, 241),
+        0 0 151px rgb(210, 219, 216);
   }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     background-color: rgb(0, 0, 0);
     color: rgb(238, 227, 227);
     height: 100vh;
@@ -22,6 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     opacity: 90%;
+    ;
    
    
 
@@ -29,22 +30,22 @@ body {
 }
 
 
-.container {
-    background-color: black;
-    border: 2px solid  rgb(6, 35, 165);
+.container{
+    background-color: rgb(8, 8, 8);
+    border: 2px solid  rgb(233, 233, 233);
     border-radius: 20px;
     padding: 20px;
     text-align: center;
     width: 300px;
     max-width: 80%;
     z-index: 3;
-    opacity: 90%;
     box-shadow: 0 0 .2rem #fff,
     0 0 .2rem #fff,
-    0 0 2rem #210dd6,
-    0 0 0.8rem #1323fe,
-    0 0 2.8rem #133efe,
-    inset 0 0 1.3rem #0f1cd1; 
+    0 0 2rem #bfbecc,
+    0 0 0.8rem #d2d2d4,
+    0 0 2.8rem #d3d3d3,
+    inset 0 0 1.3rem #babbc9; 
+    
     
     
     
@@ -55,13 +56,13 @@ body {
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid  rgb(6, 35, 165);
+    border: 3px solid  rgb(231, 233, 245);
     box-shadow: 0 0 .2rem #fff,
     0 0 .2rem #fff,
-    0 0 2rem #210dd6,
-    0 0 0.8rem #1323fe,
-    0 0 2.8rem #133efe,
-    inset 0 0 1.3rem #0f1cd1; 
+    0 0 2rem #bfbecc,
+    0 0 0.8rem #d2d2d4,
+    0 0 2.8rem #d3d3d3,
+    inset 0 0 1.3rem #babbc9; 
     
 }
 
@@ -79,19 +80,21 @@ body {
     border-radius: 10px;
     margin: 10px 0;
     text-decoration: none;
-    background-color: black;
-    border: 2px solid  rgb(6, 35, 165);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid  rgb(235, 235, 238);
     font-weight: bold;
     box-shadow: 0 0 .2rem #fff,
     0 0 .2rem #fff,
-    0 0 2rem #210dd6,
-    0 0 0.8rem #1323fe,
-    0 0 2.8rem #133efe,
-    inset 0 0 1.3rem #0f1cd1; 
+    0 0 2rem #f5f4ff,
+    0 0 0.8rem #dddddd,
+    0 0 2.8rem #dbdff5,
+    inset 0 0 1.3rem #d8d9e7; 
+   
+
     
 
     p {
-        color: rgb(243, 243, 243);
+        color: rgb(0, 0, 0);
 
     }
 }
@@ -101,9 +104,28 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     transform: translate(-50%, -50%);
     opacity: 40%;
+   
+}
+
+@keyframes to {
+
+    from {
+        top: 100%;
+        opacity: 0;
+    }
     
 }
+.link:hover {
+    background-color: #ebebf0;
+    transition: 0.5s;
+
+}
+
+.container {
+    animation: to 1s ease-in-out 1;
+}
+
