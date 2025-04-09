@@ -114,4 +114,5 @@ body {
 .link:hover {
     background-color: #ebebf0;
     transition: 0.5s;
+    transform: scale(1.05);
 }
