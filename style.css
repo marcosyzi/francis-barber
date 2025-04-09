@@ -110,22 +110,8 @@ body {
     opacity: 40%;
    
 }
-
-@keyframes to {
-
-    from {
-        top: 100%;
-        opacity: 0;
-    }
-    
-}
+   
 .link:hover {
     background-color: #ebebf0;
     transition: 0.5s;
-
 }
-
-.container {
-    animation: to 1s ease-in-out 1;
-}
-
